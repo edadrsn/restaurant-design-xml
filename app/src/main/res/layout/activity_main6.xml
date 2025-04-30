@@ -7,4 +7,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity6">
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/row"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#64FCD9">
+
+        <ImageView
+            android:id="@+id/imgCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cart"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+
+        <ImageView
+            android:id="@+id/imgMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/menu"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="74dp" />
+
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:hint="Search for Jobs and Restaurants"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
