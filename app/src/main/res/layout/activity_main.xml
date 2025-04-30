@@ -24,30 +24,39 @@
     <Button
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:background="@drawable/rounded_button"
-        android:backgroundTint="#64FCD9"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
         android:text="Restaurant"
         android:textColor="#000000"
         android:textSize="18sp"
+        app:backgroundTint="#64FCD9"
+        app:cornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#64FCD9"
+        app:strokeWidth="0dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="354dp" />
+        tools:layout_editor_absoluteY="352dp" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="350dp"
         android:layout_height="45dp"
-        android:background="@drawable/rounded_button"
-        android:backgroundTint="#64FCD9"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
         android:text="Customer"
         android:textColor="#000000"
         android:textSize="18sp"
+        app:backgroundTint="#64FCD9"
+        app:cornerRadius="16dp"
+        app:strokeColor="#64FCD9"
+        app:strokeWidth="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="417dp" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
