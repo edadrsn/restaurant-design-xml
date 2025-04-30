@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="You are a"
@@ -16,14 +17,17 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.405" />
+        app:layout_constraintVertical_bias="0.437" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="350dp"
-        android:layout_height="45dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="399dp"
+        android:layout_marginBottom="16dp"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:text="Restaurant"
@@ -31,17 +35,20 @@
         android:textSize="18sp"
         app:backgroundTint="#64FCD9"
         app:cornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/materialButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="#64FCD9"
         app:strokeWidth="0dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="352dp" />
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton"
         android:layout_width="350dp"
-        android:layout_height="45dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="280dp"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:text="Customer"
@@ -49,14 +56,14 @@
         android:textSize="18sp"
         app:backgroundTint="#64FCD9"
         app:cornerRadius="16dp"
-        app:strokeColor="#64FCD9"
-        app:strokeWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="417dp" />
-
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:strokeColor="#64FCD9"
+        app:strokeWidth="0dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
