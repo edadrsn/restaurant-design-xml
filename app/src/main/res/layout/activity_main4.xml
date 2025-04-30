@@ -5,13 +5,117 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity4">
+    tools:context=".MainActivity4"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="1dp">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/group2"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="58dp" />
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/title1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group2" />
+
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="236dp"
+        android:text="Forgot"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/title2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="25dp"
+        android:text="Password?"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title1" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Don’t Worry it happens. Please Enter an email  or Mobile associated with your account"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="354dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="57dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <ImageView
+            android:id="@+id/imgMobile"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/calling"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <EditText
+            android:id="@+id/editMobile"
+            android:layout_width="296dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:ems="15"
+            android:hint="Email Or Phone"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="408dp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="75dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#64FCD9"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:strokeColor="#64FCD9"
+        app:strokeWidth="0dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
