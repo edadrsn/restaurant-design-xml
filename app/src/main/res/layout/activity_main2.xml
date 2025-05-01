@@ -174,7 +174,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/materialButton2"
         android:layout_width="350dp"
         android:layout_height="45dp"
@@ -187,6 +187,7 @@
         android:textSize="18sp"
         app:backgroundTint="#64FCD9"
         app:cornerRadius="16dp"
+        android:onClick="goToActivity3"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
