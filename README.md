@@ -34,10 +34,10 @@ UI Features
 * Mobile-responsive layout
 
 
-![Start](page1.png)
-![Sign Up](page2.png)
-![Login](page3.png)
-![Forgot Password](page4.png)
-![Reset Password](page5.png)
-![Home](page6.png)
-![Signup Confirm](page7.png)
+![Start](Screenshots/page1.png)
+![Sign Up](Screenshots/page2.png)
+![Login](Screenshots/page3.png)
+![Forgot Password](Screenshots/page4.png)
+![Reset Password](Screenshots/page5.png)
+![Home](Screenshots/page6.png)
+![Signup Confirm](Screenshots/page7.png)
