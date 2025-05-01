@@ -25,7 +25,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="350dp"
-        android:layout_height="0dp"
+        android:layout_height="50dp"
         android:layout_marginTop="399dp"
         android:layout_marginBottom="16dp"
         android:insetTop="0dp"
@@ -44,10 +44,10 @@
         app:strokeWidth="0dp"
         tools:ignore="MissingConstraints" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/materialButton"
         android:layout_width="350dp"
-        android:layout_height="0dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="280dp"
         android:insetTop="0dp"
         android:insetBottom="0dp"
@@ -56,6 +56,7 @@
         android:textSize="18sp"
         app:backgroundTint="#64FCD9"
         app:cornerRadius="16dp"
+        android:onClick="goToActivity2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -63,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:strokeColor="#64FCD9"
         app:strokeWidth="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="OnClick" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
